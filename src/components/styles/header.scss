@@ -1,0 +1,141 @@
+@import "../../utility/variables.scss";
+
+.header {
+  position: relative;
+
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+
+    .logo {
+      font-family: "Playfair Display", serif;
+      font-size: 2.5rem;
+      color: $dark-color;
+      text-decoration: none;
+
+      @media (max-width: 640px) {
+        span {
+          display: none;
+        }
+      }
+    }
+
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+
+      button {
+        cursor: pointer;
+        transition: transform ease-in 0.2s;
+        color: $dark-color;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        a {
+          color: $dark-color;
+
+          svg {
+            stroke: $dark-color;
+            fill: $dark-color;
+          }
+        }
+      }
+
+      a {
+        position: relative;
+        text-decoration: none;
+
+        .counter {
+          position: absolute;
+          top: -5px;
+          right: -5px;
+          $size: 12px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: $size;
+          height: $size;
+          border-radius: $size;
+          border: 1px solid white;
+
+          text-align: center;
+          background-color: $accent-color;
+          font-size: 8px;
+          color: $ligth-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .mobile-menu {
+      display: none;
+    }
+
+    .hamburger {
+      display: none;
+      position: relative;
+      cursor: pointer;
+      width: 24px;
+      height: 24px;
+      transition: all 0.25s;
+      z-index: 10;
+
+      .hamburger-top,
+      .hamburger-middle,
+      .hamburger-bottom {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        top: 0;
+        left: 0;
+        background: $dark-color;
+        transform: rotate(0);
+        transition: all 0.5s;
+      }
+
+      .hamburger-middle {
+        transform: translateY(7px);
+      }
+
+      .open {
+        transform: rotate(90deg);
+        transform: translateY(0px);
+      }
+
+      .open .hamburger-top {
+        transform: rotate(45deg) translateY(6px) translateX(6px);
+      }
+
+      .open .hamburger-middle {
+        display: none;
+      }
+
+      .open .hamburger-bottom {
+        transform: rotate(-45deg) translateY(6px) translateX(-6px);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .dekstop-menu {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: block;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  }
+}

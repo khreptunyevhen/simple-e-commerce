@@ -1,0 +1,92 @@
+@import "../../utility/variables.scss";
+
+.contact-us {
+  .section-header {
+    background-image: url("../../images/contact-us-header-bg.jpg");
+
+    &:before {
+      content: "";
+      border-top: 500px solid #0e0e0e;
+      border-right: 100vw solid transparent;
+      width: 0;
+      position: absolute;
+      top: 100%;
+      z-index: -1;
+    }
+  }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+    padding: 80px 0;
+    color: $ligth-color;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .contacts {
+      width: 320px;
+      flex-shrink: 0;
+      padding: 40px 20px;
+      background-color: $dark-color;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        padding: 40px 0;
+      }
+
+      &-place {
+        h2 {
+          text-align: center;
+          font-size: 1.5em;
+          margin-bottom: 10px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 10px;
+            text-transform: none;
+
+            .icon {
+              color: $accent-color;
+              margin-right: 10px;
+            }
+          }
+        }
+
+        div {
+          margin-bottom: 40px;
+        }
+      }
+
+      &-social {
+        .social {
+          margin-right: 20px;
+          font-size: 1.5em;
+          color: $ligth-color;
+          cursor: pointer;
+          transition: color ease-in 0.2s;
+
+          &:hover {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+
+    .map {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        @media (max-width: 768px) {
+          height: 320px;
+        }
+      }
+    }
+  }
+}

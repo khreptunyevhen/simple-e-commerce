@@ -1,0 +1,52 @@
+@import "../../utility/variables.scss";
+
+.review {
+  position: absolute;
+  padding: 60px 0;
+  bottom: -180px;
+  width: 100%;
+  text-align: center;
+
+  @media (max-width: 640px) {
+    position: relative;
+    bottom: 0;
+  }
+
+  h2 {
+    font-size: 2em;
+    color: $ligth-color;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+    @media (max-width: 640px) {
+      background-color: $dark-color;
+    }
+  }
+
+  .review-slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $ligth-gray-color;
+    padding: 20px 80px;
+    min-height: 200px;
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      color: $accent-color;
+      text-transform: uppercase;
+      font-weight: 600;
+
+      @media (max-width: 640px) {
+        background-color: $ligth-color;
+      }
+    }
+  }
+}

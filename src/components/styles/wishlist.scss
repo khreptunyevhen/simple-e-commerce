@@ -1,0 +1,119 @@
+@import "../../utility/variables.scss";
+
+.wishlist {
+  .section-header {
+    background-image: url("../../images/wishlist-bg.jpg");
+  }
+
+  .wrapper {
+    padding: 80px 0;
+
+    .product-header {
+      display: grid;
+      grid-template-columns: 1fr 100px 100px 200px;
+      gap: 20px;
+      padding: 10px;
+      margin: 0 0 30px 0;
+      text-transform: uppercase;
+      color: $ligth-color;
+      background-color: $dark-color;
+
+      .price {
+        @media (max-width: 640px) {
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr 100px 200px;
+      }
+
+      @media (max-width: 640px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .status {
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+
+    .product-item {
+      display: grid;
+      grid-template-columns: 1fr 100px 100px 200px;
+      grid-template-rows: 100px;
+      gap: 20px;
+      padding: 0 10px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr 100px 200px;
+      }
+
+      @media (max-width: 640px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .flex {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .img-block {
+          width: 150px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          @media (max-width: 640px) {
+            display: none;
+          }
+        }
+      }
+
+      .price,
+      .stock {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        @media (max-width: 640px) {
+          justify-content: center;
+        }
+      }
+
+      .price {
+        color: $accent-color;
+      }
+
+      .stock {
+        color: $success-color;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto auto auto 0;
+        text-transform: uppercase;
+
+        @media (max-width: 640px) {
+          font-size: 12px;
+          text-transform: capitalize;
+          text-align: center;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+}

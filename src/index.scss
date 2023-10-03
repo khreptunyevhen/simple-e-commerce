@@ -1,0 +1,58 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+// Reset all default styles
+@import "./utility/reset.scss";
+
+@import "./utility/variables.scss";
+
+// Main styles
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $dark-color;
+  overflow-x: hidden;
+
+  .webpage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    main {
+      flex: 1 1 auto;
+    }
+  }
+
+  .container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .empty {
+    position: relative;
+    padding: 80px 0;
+    background-color: $dark-color;
+    color: $ligth-color;
+    text-align: center;
+
+    h2 {
+      font-size: 2em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: $accent-color;
+      margin-bottom: 40px;
+    }
+
+    p {
+      padding-bottom: 40px;
+    }
+
+    .btn {
+      position: absolute;
+      max-width: max-content;
+      bottom: -80px;
+      transform: translateX(-50%);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../utility/variables.scss";
+
+li {
+  text-transform: uppercase;
+
+  a {
+    color: $dark-color;
+    text-decoration: none;
+    transition: color ease-in 0.2s;
+    font-weight: 600;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}

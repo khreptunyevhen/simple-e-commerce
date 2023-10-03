@@ -1,0 +1,32 @@
+@import "../../utility/variables.scss";
+
+.section-header {
+  position: relative;
+  padding: 60px 0;
+  background-image: url("../../images/section-header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  p {
+    position: relative;
+    font-size: 2.5rem;
+    color: $ligth-color;
+    font-weight: 600;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $dark-color;
+    opacity: 0.7;
+  }
+}

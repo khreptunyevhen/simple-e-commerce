@@ -1,0 +1,43 @@
+@import "../../utility/variables.scss";
+
+.person {
+  max-width: 300px;
+  min-width: 250px;
+  background-color: $ligth-gray-color;
+  padding: 20px;
+  border-radius: 20px;
+
+  .img-block {
+    $size: 120px;
+    width: $size;
+    height: $size;
+    border-radius: $size;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-info {
+    text-align: center;
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .name {
+      text-transform: uppercase;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+
+    .about-me {
+      color: $gray-color;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../utility/variables.scss";
+
+.shop {
+  .section-header {
+    background-image: url("../../images/shop-header-bg.jpg");
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 300px));
+    gap: 40px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(3, minmax(200px, 300px));
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(2, minmax(200px, 300px));
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: repeat(1, minmax(200px, 300px));
+    }
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+
+    .page-item {
+      background-color: $ligth-gray-color;
+      $size: 40px;
+      width: $size;
+      height: $size;
+      border-radius: $size;
+      overflow: hidden;
+
+      .page-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      &:last-child,
+      &:first-child {
+        background-color: transparent;
+      }
+
+      &.active {
+        background-color: $accent-color;
+
+        .page-link {
+          color: $ligth-color;
+        }
+      }
+    }
+  }
+}

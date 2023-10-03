@@ -1,0 +1,42 @@
+@import "../../utility/variables.scss";
+
+.not-found {
+  background-color: $ligth-gray-color;
+  text-align: center;
+  padding: 100px 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 3em;
+      color: $accent-color;
+      font-weight: 600;
+      margin-bottom: 20px;
+
+      span {
+        display: block;
+      }
+    }
+
+    p {
+      color: $gray-color;
+      margin-bottom: 20px;
+    }
+
+    .go-back {
+      a {
+        display: inline-block;
+        padding: 0 6px;
+        color: $accent-color;
+        text-decoration: none;
+        transition: all ease-in 0.2s;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
