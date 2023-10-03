@@ -149,6 +149,10 @@
       gap: 20px;
       flex-wrap: wrap;
       margin-top: 40px;
+
+      @media (max-width: 640px) {
+        justify-content: center;
+      }
     }
   }
 }

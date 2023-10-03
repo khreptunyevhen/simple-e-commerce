@@ -12,6 +12,10 @@
     flex-wrap: wrap;
     gap: 20px;
 
+    @media (max-width: 640px) {
+      justify-content: center;
+    }
+
     .description {
       min-width: 200px;
       margin-bottom: 40px;
