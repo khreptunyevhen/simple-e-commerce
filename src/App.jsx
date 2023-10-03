@@ -19,6 +19,7 @@ function App() {
       <main>
         <Routes>
           <Route index element={<Home />} />
+          <Route path="/simple-e-commerce" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />

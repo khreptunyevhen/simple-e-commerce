@@ -183,7 +183,7 @@ export const webSiteInfoDB = {
     },
     {
       photo: "/simple-e-commerce/images/team/shella-photo.jpg",
-      position: "Developer",
+      position: "Back-end Developer",
       name: "Ke Qi",
       // socials: ["https://github.com/Shellaqi"],
       about:
@@ -191,7 +191,7 @@ export const webSiteInfoDB = {
     },
     {
       photo: "/simple-e-commerce/images/team/yevhen-photo.jpg",
-      position: "Developer",
+      position: "Front-end Developer",
       name: "Yevhen Khreptun",
       // socials: [
       //   "https://github.com/khreptunyevhen",
