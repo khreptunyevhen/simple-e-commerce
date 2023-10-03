@@ -23,8 +23,6 @@ const Shop = () => {
   const nPages = Math.ceil(productArray.length / recordsPerPage);
   const numbers = [...Array(nPages + 1).keys()].slice(1);
 
-  console.log(numbers);
-
   const prevPage = () => {
     if (currentPage !== 1) {
       setCurrentPage(currentPage - 1);

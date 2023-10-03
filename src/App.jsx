@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
-import { Route, Routes, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Shop from "./components/Shop";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
@@ -18,7 +18,7 @@ function App() {
 
       <main>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
