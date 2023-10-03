@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/simple-e-commerce/static/css/main.df3ac03d.css",
+    "main.js": "/simple-e-commerce/static/js/main.cb55803d.js",
+    "static/media/gallery-3.jpg": "/simple-e-commerce/static/media/gallery-3.ee49a6cb256e1c369c6d.jpg",
+    "static/media/gallery-2.jpg": "/simple-e-commerce/static/media/gallery-2.1876f64b22c6fe76543a.jpg",
+    "static/media/shop-header-bg.jpg": "/simple-e-commerce/static/media/shop-header-bg.ebd87cb3fa7c059477e5.jpg",
+    "static/media/gallery-5.jpg": "/simple-e-commerce/static/media/gallery-5.dd07e4146046fc1c25bf.jpg",
+    "static/media/main-bg.jpg": "/simple-e-commerce/static/media/main-bg.aba8e3f708e6a8354243.jpg",
+    "static/media/gallery-1.jpg": "/simple-e-commerce/static/media/gallery-1.d36c2bae0051a44ad882.jpg",
+    "static/media/gallery-4.jpg": "/simple-e-commerce/static/media/gallery-4.91903487644df60c6e36.jpg",
+    "static/media/map.png": "/simple-e-commerce/static/media/map.0c01945af7dd2ceda5a5.png",
+    "static/media/about-bg.jpg": "/simple-e-commerce/static/media/about-bg.82c8ad4b8fc15f19feda.jpg",
+    "static/media/main-slider-shoe.png": "/simple-e-commerce/static/media/main-slider-shoe.b88409f947d891d0b60c.png",
+    "static/media/wishlist-bg.jpg": "/simple-e-commerce/static/media/wishlist-bg.fc4e36b6639785579f70.jpg",
+    "static/media/contact-us-header-bg.jpg": "/simple-e-commerce/static/media/contact-us-header-bg.8f49d9baa1e1c1aae49c.jpg",
+    "static/media/gallery-8.jpg": "/simple-e-commerce/static/media/gallery-8.90caffca1a05e4214816.jpg",
+    "static/media/category-men-bg.jpg": "/simple-e-commerce/static/media/category-men-bg.552da1be0d7671c406be.jpg",
+    "static/media/gallery-12.jpg": "/simple-e-commerce/static/media/gallery-12.552da1be0d7671c406be.jpg",
+    "static/media/category-women-bg.jpg": "/simple-e-commerce/static/media/category-women-bg.060135e43fbd0a5bd13e.jpg",
+    "static/media/gallery-9.jpg": "/simple-e-commerce/static/media/gallery-9.060135e43fbd0a5bd13e.jpg",
+    "static/media/gallery-11.jpg": "/simple-e-commerce/static/media/gallery-11.d4ebcf77c879ebcc0749.jpg",
+    "static/media/gallery-7.jpg": "/simple-e-commerce/static/media/gallery-7.16fd3142b3ddf22706c3.jpg",
+    "static/media/shoe-cart-bg.jpg": "/simple-e-commerce/static/media/shoe-cart-bg.78cb439d08c1f7a5d474.jpg",
+    "static/media/category-kids-bg.jpg": "/simple-e-commerce/static/media/category-kids-bg.322a5da17b214b08f771.jpg",
+    "static/media/gallery-10.jpg": "/simple-e-commerce/static/media/gallery-10.322a5da17b214b08f771.jpg",
+    "static/media/gallery-6.jpg": "/simple-e-commerce/static/media/gallery-6.cc96ab300d50f5b79165.jpg",
+    "static/media/section-header-bg.jpg": "/simple-e-commerce/static/media/section-header-bg.ec902c0f398ddc4853ea.jpg",
+    "index.html": "/simple-e-commerce/index.html",
+    "main.df3ac03d.css.map": "/simple-e-commerce/static/css/main.df3ac03d.css.map",
+    "main.cb55803d.js.map": "/simple-e-commerce/static/js/main.cb55803d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df3ac03d.css",
+    "static/js/main.cb55803d.js"
+  ]
+}
