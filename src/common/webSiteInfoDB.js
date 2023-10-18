@@ -95,28 +95,28 @@ export const webSiteInfoDB = {
       title: "We are miralou",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here",
-      image: "/simple-e-commerce/images/about-2.jpg",
+      image: "/images/about-2.jpg",
       type: "shoes",
     },
     {
       title: "Shops worldwide",
       description:
         "Orci fusce libero duis nunc nam aliquet suspendisse enim cras. imperdiet turpis ut nulla sapien.",
-      image: "/simple-e-commerce/images/about-2.png",
+      image: "/images/about-2.png",
       type: "shoes",
     },
     {
       title: "24/7 support",
       description:
         "Orci fusce libero duis nunc nam aliquet suspendisse enim cras. imperdiet turpis ut nulla sapien.",
-      image: "/simple-e-commerce/images/about-2.png",
+      image: "/images/about-2.png",
       type: "shoes",
     },
     {
       title: "Big saving shop",
       description:
         "Orci fusce libero duis nunc nam aliquet suspendisse enim cras. imperdiet turpis ut nulla sapien.",
-      image: "/simple-e-commerce/about-2.png",
+      image: "/about-2.png",
       type: "shoes",
     },
     {
@@ -145,7 +145,7 @@ export const webSiteInfoDB = {
     title: "About miralou",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nobis quaerat iusto culpa sed? Nulla et earum ut eveniet recusandae molestiae aliquam animi a nihil aliquid praesentium incidunt, itaque adipisci.",
-    image: "/simple-e-commerce/images/home/about.jpg",
+    image: "/images/home/about.jpg",
   },
   contactUs: [
     {
@@ -169,7 +169,7 @@ export const webSiteInfoDB = {
   },
   team: [
     {
-      photo: "/simple-e-commerce/images/team/paolo-photo.jpg",
+      photo: "/images/team/paolo-photo.jpg",
       position: "Lead",
       name: "Paolo Jr A.",
       // socials: [
@@ -182,7 +182,7 @@ export const webSiteInfoDB = {
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam qui optio, ad amet magni aut fuga ipsam, reprehenderit est, quibusdam neque voluptatem nam ipsum sequi hic tenetur assumenda esse quis?",
     },
     {
-      photo: "/simple-e-commerce/images/team/shella-photo.jpg",
+      photo: "/images/team/shella-photo.jpg",
       position: "Back-end Developer",
       name: "Ke Qi",
       // socials: ["https://github.com/Shellaqi"],
@@ -190,7 +190,7 @@ export const webSiteInfoDB = {
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam qui optio, ad amet magni aut fuga ipsam, reprehenderit est, quibusdam neque voluptatem nam ipsum sequi hic tenetur assumenda esse quis?",
     },
     {
-      photo: "/simple-e-commerce/images/team/yevhen-photo.jpg",
+      photo: "/images/team/yevhen-photo.jpg",
       position: "Front-end Developer",
       name: "Yevhen Khreptun",
       // socials: [
