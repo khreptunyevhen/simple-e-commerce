@@ -72,7 +72,7 @@ const ProductCard = () => {
               return (
                 <div key={`photo-product-${index}`} className="images-block">
                   <img
-                    src={`/${card?.image}`}
+                    src={`${card?.image}`}
                     alt={`${card?.name} ${card?.model}`}
                   />
                 </div>

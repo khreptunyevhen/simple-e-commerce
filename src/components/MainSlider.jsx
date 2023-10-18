@@ -29,12 +29,6 @@ const MainSlider = ({ slides }) => {
             border-radius: 5px;
             color: #0e0e0e;
           }
-          .swiper-button-prev {
-            background-image: url("/arrow-left.svg");
-          }
-          .swiper-button-next {
-            background-image: url("/arrow-right.svg");
-          }
           .swiper-button-next::after {
             content: ">";
             font-size: 16px;
