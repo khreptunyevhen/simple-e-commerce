@@ -55,7 +55,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -120,7 +120,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -185,7 +185,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -250,7 +250,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -315,7 +315,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -380,7 +380,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -445,7 +445,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -510,7 +510,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -575,7 +575,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -640,7 +640,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -707,7 +707,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -772,7 +772,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -837,7 +837,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -902,7 +902,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -967,7 +967,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1032,7 +1032,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1097,7 +1097,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1162,7 +1162,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1227,7 +1227,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1292,7 +1292,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1359,7 +1359,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1424,7 +1424,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1489,7 +1489,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1554,7 +1554,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1619,7 +1619,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1684,7 +1684,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1749,7 +1749,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1814,7 +1814,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1879,7 +1879,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
@@ -1944,7 +1944,7 @@ export const products = {
           inStock: true,
         },
       ],
-      image: "simple-e-commerce/images/product/jordan-shoe.jpg",
+      image: "/images/product/jordan-shoe.jpg",
       about:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dolormagnam, fugit harum corporis velit reprehenderit amet, iste omnis sit aliquid,debitis perspiciatis ipsam. Voluptatibus quo accusantium consequatur debitis?",
       description: "lorem",
